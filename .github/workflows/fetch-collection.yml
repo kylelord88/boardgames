@@ -2,8 +2,8 @@ name: Fetch BGG Collection
 
 on:
   schedule:
-    - cron: '0 4 * * *'  # Runs daily at 4am UTC
-  workflow_dispatch:       # Allows manual trigger from GitHub Actions tab
+    - cron: '0 4 * * *'
+  workflow_dispatch:
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -18,206 +18,47 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Fetch BGG collection
+      - name: Fetch BGG collection XML
         env:
           BGG_TOKEN: ${{ secrets.BGG_TOKEN }}
           BGG_USERNAME: eyeamthekiller0
         run: |
           echo "Fetching collection for $BGG_USERNAME..."
 
-          fetch_collection() {
-            curl -s \
-              -H "Authorization: Bearer $BGG_TOKEN" \
-              "https://boardgamegeek.com/xmlapi2/collection?username=$BGG_USERNAME&own=1&stats=1&excludesubtype=boardgameexpansion"
-          }
-
-          RESPONSE=$(fetch_collection)
-          echo "--- HTTP response (first 500 chars) ---"
-          echo "${RESPONSE:0:500}"
-          echo "---------------------------------------"
-
-          # BGG returns 202/queued response — retry up to 8 times with 15s waits
           for i in {1..8}; do
+            RESPONSE=$(curl -s -H "Authorization: Bearer $BGG_TOKEN" \
+              "https://boardgamegeek.com/xmlapi2/collection?username=$BGG_USERNAME&own=1&stats=1&excludesubtype=boardgameexpansion")
+
+            echo "Attempt $i - first 300 chars:"
+            echo "${RESPONSE:0:300}"
+
             if echo "$RESPONSE" | grep -q '<message>'; then
-              echo "BGG queued response, retrying in 15s... (attempt $i/8)"
+              echo "Queued, waiting 15s..."
               sleep 15
-              RESPONSE=$(fetch_collection)
             else
-              echo "Got valid response on attempt $i"
+              echo "Valid response received."
               break
             fi
           done
 
-          # Check we actually got items
           ITEM_COUNT=$(echo "$RESPONSE" | grep -o '<item ' | wc -l)
-          echo "Items found in response: $ITEM_COUNT"
+          echo "Items in response: $ITEM_COUNT"
 
           if [ "$ITEM_COUNT" -eq 0 ]; then
-            echo "ERROR: No items in response. Full response:"
+            echo "ERROR: No items found. Full response:"
             echo "$RESPONSE"
             exit 1
           fi
 
           echo "$RESPONSE" > raw_collection.xml
 
-          python3 - <<'PYEOF'
-import xml.etree.ElementTree as ET
-import json, sys
+      - name: Parse collection XML to JSON
+        run: python3 scripts/parse_collection.py
 
-try:
-    tree = ET.parse('raw_collection.xml')
-    root = tree.getroot()
-except ET.ParseError as e:
-    print(f"XML parse error: {e}", file=sys.stderr)
-    sys.exit(1)
-
-print(f"Root tag: {root.tag}, total children: {len(list(root))}")
-
-games = []
-for item in root.findall('item'):
-    game_id = item.get('objectid')
-
-    name_el = item.find('name')
-    name = name_el.text if name_el is not None else 'Unknown'
-
-    year_el = item.find('yearpublished')
-    year = year_el.text if year_el is not None else ''
-
-    thumb_el = item.find('thumbnail')
-    thumbnail = thumb_el.text.strip() if thumb_el is not None and thumb_el.text else ''
-
-    image_el = item.find('image')
-    image = image_el.text.strip() if image_el is not None and image_el.text else ''
-
-    stats = item.find('stats')
-    avg_rating = num_ratings = weight = ''
-    min_players = max_players = min_playtime = max_playtime = ''
-
-    if stats is not None:
-        min_players = stats.get('minplayers', '')
-        max_players = stats.get('maxplayers', '')
-        min_playtime = stats.get('minplaytime', '')
-        max_playtime = stats.get('maxplaytime', '')
-        rating_el = stats.find('rating')
-        if rating_el is not None:
-            avg_el = rating_el.find('average')
-            if avg_el is not None:
-                avg_rating = avg_el.get('value', '')
-            num_rating_el = rating_el.find('usersrated')
-            if num_rating_el is not None:
-                num_ratings = num_rating_el.get('value', '')
-            weight_el = rating_el.find('averageweight')
-            if weight_el is not None:
-                weight = weight_el.get('value', '')
-
-    user_rating_el = item.find('.//rating')
-    user_rating = ''
-    if user_rating_el is not None:
-        val = user_rating_el.get('value', '')
-        if val not in ('N/A', '0', ''):
-            user_rating = val
-
-    num_plays_el = item.find('numplays')
-    num_plays = num_plays_el.text if num_plays_el is not None else '0'
-
-    games.append({
-        'id': game_id,
-        'name': name,
-        'year': year,
-        'thumbnail': thumbnail,
-        'image': image,
-        'avg_rating': avg_rating,
-        'num_ratings': num_ratings,
-        'user_rating': user_rating,
-        'weight': weight,
-        'num_plays': num_plays,
-        'min_players': min_players,
-        'max_players': max_players,
-        'min_playtime': min_playtime,
-        'max_playtime': max_playtime,
-    })
-
-games.sort(key=lambda g: g['name'].lower())
-
-import datetime
-output = {
-    'username': 'eyeamthekiller0',
-    'updated': datetime.datetime.utcnow().isoformat() + 'Z',
-    'count': len(games),
-    'games': games
-}
-
-with open('collection.json', 'w') as f:
-    json.dump(output, f, indent=2)
-
-print(f"Saved {len(games)} games to collection.json")
-PYEOF
-
-      - name: Fetch game details (categories, mechanics) in batches
+      - name: Fetch game details (categories and mechanics)
         env:
           BGG_TOKEN: ${{ secrets.BGG_TOKEN }}
-        run: |
-          python3 - <<'PYEOF'
-import json, urllib.request, urllib.error, xml.etree.ElementTree as ET, time, os, sys
-
-with open('collection.json') as f:
-    data = json.load(f)
-
-games = data['games']
-ids = [g['id'] for g in games]
-token = os.environ['BGG_TOKEN']
-
-print(f"Fetching details for {len(ids)} games...")
-
-def chunks(lst, n):
-    for i in range(0, len(lst), n):
-        yield lst[i:i+n]
-
-details = {}
-for batch_num, batch in enumerate(chunks(ids, 20)):
-    id_str = ','.join(batch)
-    url = f'https://boardgamegeek.com/xmlapi2/thing?id={id_str}&type=boardgame'
-    req = urllib.request.Request(url, headers={'Authorization': f'Bearer {token}'})
-    xml_data = None
-    for attempt in range(4):
-        try:
-            with urllib.request.urlopen(req, timeout=30) as resp:
-                xml_data = resp.read()
-            break
-        except Exception as e:
-            print(f"  Batch {batch_num+1} attempt {attempt+1} failed: {e}")
-            time.sleep(8)
-
-    if not xml_data:
-        print(f"  Batch {batch_num+1} skipped after all retries")
-        continue
-
-    try:
-        root = ET.fromstring(xml_data)
-        for item in root.findall('item'):
-            gid = item.get('id')
-            categories = [l.get('value') for l in item.findall('link[@type="boardgamecategory"]')]
-            mechanics  = [l.get('value') for l in item.findall('link[@type="boardgamemechanic"]')]
-            families   = [l.get('value') for l in item.findall('link[@type="boardgamefamily"]')]
-            details[gid] = {'categories': categories, 'mechanics': mechanics, 'families': families}
-        print(f"  Batch {batch_num+1} done ({len(batch)} games)")
-    except ET.ParseError as e:
-        print(f"  Batch {batch_num+1} XML parse error: {e}")
-
-    time.sleep(2)
-
-for game in games:
-    d = details.get(game['id'], {})
-    game['categories'] = d.get('categories', [])
-    game['mechanics']  = d.get('mechanics', [])
-    game['families']   = d.get('families', [])
-
-data['games'] = games
-with open('collection.json', 'w') as f:
-    json.dump(data, f, indent=2)
-
-print(f"Details added for {len(details)} games")
-PYEOF
+        run: python3 scripts/fetch_details.py
 
       - name: Commit collection.json
         run: |
