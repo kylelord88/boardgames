@@ -667,6 +667,49 @@
   .modal-tag.mechanic { border-color: #2c3e50; }
   .modal-tag.category { border-color: #3d2c1e; color: #a07850; }
 
+  /* expansion list in modal */
+  .expansion-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .expansion-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 8px;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+  }
+  .expansion-thumb {
+    width: 28px; height: 28px;
+    object-fit: cover;
+    border-radius: 2px;
+    flex-shrink: 0;
+    background: var(--border2);
+  }
+  .expansion-name {
+    font-size: 12px;
+    color: var(--text);
+    flex: 1;
+  }
+  .expansion-year {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    color: var(--muted);
+    flex-shrink: 0;
+  }
+
+  /* expansion count badge on grid cards */
+  .exp-badge {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    color: var(--accent2);
+    letter-spacing: 0.3px;
+    margin-top: 2px;
+  }
+
   .modal-bgg-link {
     display: inline-flex;
     align-items: center;
@@ -849,6 +892,10 @@
       <div class="modal-tags" id="m-cats"></div>
       <div class="modal-section-title">Mechanics</div>
       <div class="modal-tags" id="m-mechs"></div>
+      <div id="m-expansions-section">
+        <div class="modal-section-title">Expansions Owned</div>
+        <div id="m-expansions"></div>
+      </div>
       <a class="modal-bgg-link" id="m-bgg-link" href="#" target="_blank" rel="noopener">↗ VIEW ON BOARDGAMEGEEK</a>
     </div>
   </div>
@@ -1023,6 +1070,7 @@
             <span class="card-rating">${g.user_rating ? parseFloat(g.user_rating).toFixed(1) : '—'}</span>
           </div>
           <div class="card-weight">${weightDots(g.weight)}</div>
+          ${g.expansions_owned && g.expansions_owned.length ? `<div class="exp-badge">+${g.expansions_owned.length} expansion${g.expansions_owned.length > 1 ? 's' : ''}</div>` : ''}
         </div>
       </div>`).join('');
 
@@ -1080,6 +1128,21 @@
 
     document.getElementById('m-mechs').innerHTML = (g.mechanics || []).map(m =>
       `<span class="modal-tag mechanic">${m}</span>`).join('') || '<span style="color:var(--muted2);font-size:11px">None listed</span>';
+
+    const exps = g.expansions_owned || [];
+    const expSection = document.getElementById('m-expansions-section');
+    const expEl = document.getElementById('m-expansions');
+    if (exps.length) {
+      expSection.style.display = 'block';
+      expEl.innerHTML = `<div class="expansion-list">${exps.map(e => `
+        <div class="expansion-item">
+          ${e.thumbnail ? `<img class="expansion-thumb" src="${e.thumbnail}" alt="" loading="lazy">` : '<div class="expansion-thumb"></div>'}
+          <span class="expansion-name">${e.name}</span>
+          <span class="expansion-year">${e.year || ''}</span>
+        </div>`).join('')}</div>`;
+    } else {
+      expSection.style.display = 'none';
+    }
 
     document.getElementById('m-bgg-link').href = `https://boardgamegeek.com/boardgame/${id}`;
     document.getElementById('modal-overlay').classList.add('open');
