@@ -27,7 +27,7 @@ jobs:
 
           for i in {1..8}; do
             RESPONSE=$(curl -s -H "Authorization: Bearer $BGG_TOKEN" \
-              "https://boardgamegeek.com/xmlapi2/collection?username=$BGG_USERNAME&own=1&stats=1&excludesubtype=boardgameexpansion")
+              "https://boardgamegeek.com/xmlapi2/collection?username=$BGG_USERNAME&own=1&stats=1")
 
             echo "Attempt $i - first 300 chars:"
             echo "${RESPONSE:0:300}"
