@@ -10,8 +10,7 @@ except ET.ParseError as e:
 
 print(f"Root tag: {root.tag}, total children: {len(list(root))}")
 
-games = []
-for item in root.findall('item'):
+def parse_item(item):
     game_id = item.get('objectid')
 
     name_el = item.find('name')
@@ -57,7 +56,7 @@ for item in root.findall('item'):
     num_plays_el = item.find('numplays')
     num_plays = num_plays_el.text if num_plays_el is not None else '0'
 
-    games.append({
+    return {
         'id': game_id,
         'name': name,
         'year': year,
@@ -72,18 +71,35 @@ for item in root.findall('item'):
         'max_players': max_players,
         'min_playtime': min_playtime,
         'max_playtime': max_playtime,
-    })
+    }
+
+games = []
+expansions = []
+
+for item in root.findall('item'):
+    subtype = item.get('subtype', '')
+    parsed = parse_item(item)
+    if subtype == 'boardgameexpansion':
+        expansions.append(parsed)
+    else:
+        parsed['expansions_owned'] = []  # will be filled by fetch_details.py
+        games.append(parsed)
 
 games.sort(key=lambda g: g['name'].lower())
+expansions.sort(key=lambda g: g['name'].lower())
+
+print(f"Base games: {len(games)}, Expansions: {len(expansions)}")
 
 output = {
     'username': 'eyeamthekiller0',
     'updated': datetime.datetime.utcnow().isoformat() + 'Z',
     'count': len(games),
-    'games': games
+    'expansion_count': len(expansions),
+    'games': games,
+    'expansions': expansions,
 }
 
 with open('collection.json', 'w') as f:
     json.dump(output, f, indent=2)
 
-print(f"Saved {len(games)} games to collection.json")
+print(f"Saved {len(games)} games and {len(expansions)} expansions to collection.json")
