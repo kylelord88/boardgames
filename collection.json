@@ -1,7 +1,8 @@
 {
   "username": "eyeamthekiller0",
-  "updated": "2026-03-25T18:39:17.600954Z",
-  "count": 89,
+  "updated": "2026-03-25T18:51:47.568064Z",
+  "count": 118,
+  "expansion_count": 0,
   "games": [
     {
       "id": "373167",
@@ -18,6 +19,7 @@
       "max_players": "1",
       "min_playtime": "30",
       "max_playtime": "40",
+      "expansions_owned": [],
       "categories": [
         "Card Game",
         "Dice"
@@ -31,6 +33,70 @@
         "Components: Dice with Icons",
         "Crowdfunding: Gamefound",
         "Digital Implementations: Sovranti",
+        "Game: 20 Strong",
+        "Players: Solitaire Only Games"
+      ]
+    },
+    {
+      "id": "373169",
+      "name": "20 Strong: Hoplomachus Victorum",
+      "year": "2023",
+      "thumbnail": "https://cf.geekdo-images.com/SW9-PEYuqUrPdpJ2yQGJQw__small/img/ZFNesclBVJ8ciCcuofX4u9Z9cgE=/fit-in/200x150/filters:strip_icc()/pic7858266.png",
+      "image": "https://cf.geekdo-images.com/SW9-PEYuqUrPdpJ2yQGJQw__original/img/tL4XWJo34nHiMpMTvFkqRh-EMWU=/0x0/filters:format(png)/pic7858266.png",
+      "avg_rating": "7.68139",
+      "num_ratings": "518",
+      "user_rating": "",
+      "weight": "",
+      "num_plays": "0",
+      "min_players": "1",
+      "max_players": "1",
+      "min_playtime": "30",
+      "max_playtime": "40",
+      "expansions_owned": [],
+      "categories": [
+        "Card Game",
+        "Dice"
+      ],
+      "mechanics": [
+        "Dice Rolling",
+        "Move Through Deck",
+        "Solo / Solitaire Game"
+      ],
+      "families": [
+        "Admin: Better Description Needed!",
+        "Crowdfunding: Gamefound",
+        "Game: 20 Strong",
+        "Players: Solitaire Only Games"
+      ]
+    },
+    {
+      "id": "373168",
+      "name": "20 Strong: Too Many Bones",
+      "year": "2023",
+      "thumbnail": "https://cf.geekdo-images.com/LaQEc_vLxzee8FDw-Y1qnw__small/img/7XLOTpi5-RBFV_huFki2TV8lYTk=/fit-in/200x150/filters:strip_icc()/pic7858265.png",
+      "image": "https://cf.geekdo-images.com/LaQEc_vLxzee8FDw-Y1qnw__original/img/ibylQPK1odh659u1ilgdP5UieQ8=/0x0/filters:format(png)/pic7858265.png",
+      "avg_rating": "7.52334",
+      "num_ratings": "671",
+      "user_rating": "",
+      "weight": "",
+      "num_plays": "0",
+      "min_players": "1",
+      "max_players": "1",
+      "min_playtime": "30",
+      "max_playtime": "45",
+      "expansions_owned": [],
+      "categories": [
+        "Card Game",
+        "Dice"
+      ],
+      "mechanics": [
+        "Dice Rolling",
+        "Move Through Deck",
+        "Solo / Solitaire Game"
+      ],
+      "families": [
+        "Admin: Better Description Needed!",
+        "Crowdfunding: Gamefound",
         "Game: 20 Strong",
         "Players: Solitaire Only Games"
       ]
@@ -50,6 +116,7 @@
       "max_players": "2",
       "min_playtime": "30",
       "max_playtime": "30",
+      "expansions_owned": [],
       "categories": [
         "Ancient",
         "Card Game",
@@ -92,6 +159,36 @@
       ]
     },
     {
+      "id": "228552",
+      "name": "Aeon's End: The Outer Dark",
+      "year": "2017",
+      "thumbnail": "https://cf.geekdo-images.com/Z6F8-U5qlZa7BZj0fhmZ1w__small/img/JzuSDpJCQf6C8UXqsL7555Ibl_8=/fit-in/200x150/filters:strip_icc()/pic3683847.jpg",
+      "image": "https://cf.geekdo-images.com/Z6F8-U5qlZa7BZj0fhmZ1w__original/img/nEmLTDXbMmOUFHQmylEpWBlwMPk=/0x0/filters:format(jpeg)/pic3683847.jpg",
+      "avg_rating": "8.4432",
+      "num_ratings": "1263",
+      "user_rating": "7",
+      "weight": "",
+      "num_plays": "0",
+      "min_players": "1",
+      "max_players": "4",
+      "min_playtime": "60",
+      "max_playtime": "60",
+      "expansions_owned": [],
+      "categories": [
+        "Expansion for Base-game",
+        "Card Game",
+        "Fantasy"
+      ],
+      "mechanics": [
+        "Cooperative Game",
+        "Deck, Bag, and Pool Building",
+        "Hand Management"
+      ],
+      "families": [
+        "Game: Aeon's End"
+      ]
+    },
+    {
       "id": "218417",
       "name": "Aeon's End: War Eternal",
       "year": "2017",
@@ -106,6 +203,7 @@
       "max_players": "4",
       "min_playtime": "60",
       "max_playtime": "60",
+      "expansions_owned": [],
       "categories": [
         "Card Game",
         "Fantasy",
@@ -141,6 +239,7 @@
       "max_players": "6",
       "min_playtime": "120",
       "max_playtime": "180",
+      "expansions_owned": [],
       "categories": [
         "Adventure",
         "Fighting",
@@ -179,6 +278,7 @@
       "max_players": "2",
       "min_playtime": "60",
       "max_playtime": "120",
+      "expansions_owned": [],
       "categories": [
         "Adventure",
         "Card Game",
@@ -219,6 +319,44 @@
       ]
     },
     {
+      "id": "208545",
+      "name": "Arkham Horror: The Card Game \u2013 The Dunwich Legacy: Expansion",
+      "year": "2017",
+      "thumbnail": "https://cf.geekdo-images.com/K-Gm9TAbPmHhA0E7wWvZ8g__small/img/gIgMZ2J8G9_IYFFRLeqhaQfX_gQ=/fit-in/200x150/filters:strip_icc()/pic3610420.jpg",
+      "image": "https://cf.geekdo-images.com/K-Gm9TAbPmHhA0E7wWvZ8g__original/img/VFy1a5fY018Bqa-F8quINccXwHM=/0x0/filters:format(jpeg)/pic3610420.jpg",
+      "avg_rating": "8.41772",
+      "num_ratings": "4123",
+      "user_rating": "8",
+      "weight": "",
+      "num_plays": "0",
+      "min_players": "1",
+      "max_players": "2",
+      "min_playtime": "60",
+      "max_playtime": "120",
+      "expansions_owned": [],
+      "categories": [
+        "Expansion for Base-game",
+        "Card Game",
+        "Fantasy",
+        "Horror",
+        "Novel-based"
+      ],
+      "mechanics": [
+        "Cooperative Game",
+        "Hand Management",
+        "Solo / Solitaire Game",
+        "Variable Player Powers"
+      ],
+      "families": [
+        "Collectible: Living Card Game (Fantasy Flight Games)",
+        "Game: Arkham Horror \u2013 The Card Game",
+        "Game: Arkham Horror TCG \u2013 The Dunwich Legacy",
+        "Mechanism: Campaign Games",
+        "Series: Arkham Horror Files (Fantasy Flight Games)",
+        "Theme: Cthulhu Mythos"
+      ]
+    },
+    {
       "id": "386538",
       "name": "Astro Knights: Eternity",
       "year": "2024",
@@ -233,6 +371,7 @@
       "max_players": "4",
       "min_playtime": "45",
       "max_playtime": "60",
+      "expansions_owned": [],
       "categories": [
         "Card Game",
         "Fighting",
@@ -257,6 +396,54 @@
       ]
     },
     {
+      "id": "406203",
+      "name": "Astro Knights: Eternity \u2013 Mystery of Solarus",
+      "year": "2024",
+      "thumbnail": "https://cf.geekdo-images.com/GI4c-G1cJqxiOCazVXqaSQ__small/img/HEYGP4rjhl9I0Q9DS2LI08xXOuU=/fit-in/200x150/filters:strip_icc()/pic8218268.jpg",
+      "image": "https://cf.geekdo-images.com/GI4c-G1cJqxiOCazVXqaSQ__original/img/AjwEyz7V0-uNNuqGv1kimIV9HRg=/0x0/filters:format(jpeg)/pic8218268.jpg",
+      "avg_rating": "8.25926",
+      "num_ratings": "54",
+      "user_rating": "8",
+      "weight": "",
+      "num_plays": "0",
+      "min_players": "1",
+      "max_players": "4",
+      "min_playtime": "45",
+      "max_playtime": "60",
+      "expansions_owned": [],
+      "categories": [
+        "Expansion for Base-game"
+      ],
+      "mechanics": [],
+      "families": [
+        "Crowdfunding: Kickstarter"
+      ]
+    },
+    {
+      "id": "406204",
+      "name": "Astro Knights: Eternity \u2013 Savage Skies",
+      "year": "2024",
+      "thumbnail": "https://cf.geekdo-images.com/phMpIGoZ4D0gFKDxyhQyiQ__small/img/b0QVl2duqqkL22aC8kYhO_OKYZQ=/fit-in/200x150/filters:strip_icc()/pic8148287.jpg",
+      "image": "https://cf.geekdo-images.com/phMpIGoZ4D0gFKDxyhQyiQ__original/img/EsY1Y_SlbYy-0c4j1k8n1Ejxu2g=/0x0/filters:format(jpeg)/pic8148287.jpg",
+      "avg_rating": "8.35192",
+      "num_ratings": "52",
+      "user_rating": "8",
+      "weight": "",
+      "num_plays": "0",
+      "min_players": "1",
+      "max_players": "4",
+      "min_playtime": "45",
+      "max_playtime": "60",
+      "expansions_owned": [],
+      "categories": [
+        "Expansion for Base-game"
+      ],
+      "mechanics": [],
+      "families": [
+        "Crowdfunding: Kickstarter"
+      ]
+    },
+    {
       "id": "10547",
       "name": "Betrayal at House on the Hill",
       "year": "2004",
@@ -271,6 +458,7 @@
       "max_players": "6",
       "min_playtime": "60",
       "max_playtime": "60",
+      "expansions_owned": [],
       "categories": [
         "Adventure",
         "Exploration",
@@ -311,6 +499,7 @@
       "max_players": "5",
       "min_playtime": "20",
       "max_playtime": "30",
+      "expansions_owned": [],
       "categories": [
         "Deduction"
       ],
@@ -339,6 +528,7 @@
       "max_players": "4",
       "min_playtime": "30",
       "max_playtime": "30",
+      "expansions_owned": [],
       "categories": [
         "Card Game",
         "Fantasy",
@@ -378,6 +568,7 @@
       "max_players": "4",
       "min_playtime": "30",
       "max_playtime": "60",
+      "expansions_owned": [],
       "categories": [
         "Abstract Strategy",
         "Animals",
@@ -401,6 +592,42 @@
       ]
     },
     {
+      "id": "360484",
+      "name": "Casting Shadows: The Ice Storm Expansion",
+      "year": "2023",
+      "thumbnail": "https://cf.geekdo-images.com/ix0mRjCPtrU-vaeX-U5PNw__small/img/R4aZPANkmiBtjN3NvB5lKO0WtKQ=/fit-in/200x150/filters:strip_icc()/pic8909672.jpg",
+      "image": "https://cf.geekdo-images.com/ix0mRjCPtrU-vaeX-U5PNw__original/img/TnP88lqRYVYcEa99GBnV9yYgYgs=/0x0/filters:format(jpeg)/pic8909672.jpg",
+      "avg_rating": "6.88765",
+      "num_ratings": "255",
+      "user_rating": "8",
+      "weight": "",
+      "num_plays": "0",
+      "min_players": "2",
+      "max_players": "6",
+      "min_playtime": "30",
+      "max_playtime": "60",
+      "expansions_owned": [],
+      "categories": [
+        "Expansion for Base-game",
+        "Abstract Strategy",
+        "Animals",
+        "Children's Game",
+        "Fantasy"
+      ],
+      "mechanics": [
+        "Action Points",
+        "Area Movement",
+        "Dice Rolling",
+        "Hexagon Grid",
+        "Player Elimination"
+      ],
+      "families": [
+        "Crowdfunding: Kickstarter",
+        "Misc: LongPack Games",
+        "Players: Expansions Changing Player Count"
+      ]
+    },
+    {
       "id": "201808",
       "name": "Clank!: A Deck-Building Adventure",
       "year": "2016",
@@ -415,6 +642,7 @@
       "max_players": "4",
       "min_playtime": "30",
       "max_playtime": "60",
+      "expansions_owned": [],
       "categories": [
         "Adventure",
         "Fantasy"
@@ -461,6 +689,7 @@
       "max_players": "4",
       "min_playtime": "90",
       "max_playtime": "180",
+      "expansions_owned": [],
       "categories": [
         "Exploration",
         "Fantasy",
@@ -507,6 +736,7 @@
       "max_players": "4",
       "min_playtime": "30",
       "max_playtime": "60",
+      "expansions_owned": [],
       "categories": [
         "Animals",
         "Card Game",
@@ -536,6 +766,43 @@
       ]
     },
     {
+      "id": "392144",
+      "name": "Command of Nature: Sand & Wind",
+      "year": "2024",
+      "thumbnail": "",
+      "image": "",
+      "avg_rating": "7.27344",
+      "num_ratings": "160",
+      "user_rating": "8",
+      "weight": "",
+      "num_plays": "0",
+      "min_players": "2",
+      "max_players": "4",
+      "min_playtime": "30",
+      "max_playtime": "60",
+      "expansions_owned": [],
+      "categories": [
+        "Expansion for Base-game",
+        "Card Game"
+      ],
+      "mechanics": [
+        "Action Points",
+        "Command Cards",
+        "Deck, Bag, and Pool Building",
+        "Delayed Purchase",
+        "Hand Management",
+        "Income",
+        "Interrupts",
+        "Market",
+        "Open Drafting",
+        "Tags",
+        "Take That"
+      ],
+      "families": [
+        "Crowdfunding: Kickstarter"
+      ]
+    },
+    {
       "id": "253344",
       "name": "Cthulhu: Death May Die",
       "year": "2019",
@@ -550,6 +817,7 @@
       "max_players": "5",
       "min_playtime": "90",
       "max_playtime": "120",
+      "expansions_owned": [],
       "categories": [
         "Fantasy",
         "Fighting",
@@ -598,6 +866,7 @@
       "max_players": "4",
       "min_playtime": "60",
       "max_playtime": "90",
+      "expansions_owned": [],
       "categories": [
         "Science Fiction"
       ],
@@ -633,6 +902,7 @@
       "max_players": "4",
       "min_playtime": "120",
       "max_playtime": "180",
+      "expansions_owned": [],
       "categories": [
         "Adventure",
         "Fantasy",
@@ -663,6 +933,87 @@
       ]
     },
     {
+      "id": "382927",
+      "name": "Descent: Legends of the Dark \u2013 The Betrayer's War",
+      "year": "2023",
+      "thumbnail": "https://cf.geekdo-images.com/HmW4xXkWhucyi0iuLvfG8Q__small/img/5Zr0ffkbSstavInS7xC9t8KTjw4=/fit-in/200x150/filters:strip_icc()/pic7416676.png",
+      "image": "https://cf.geekdo-images.com/HmW4xXkWhucyi0iuLvfG8Q__original/img/nb5lkNVuPwVVPjFlL5fTyk5CeRg=/0x0/filters:format(png)/pic7416676.png",
+      "avg_rating": "8.60101",
+      "num_ratings": "388",
+      "user_rating": "",
+      "weight": "",
+      "num_plays": "0",
+      "min_players": "1",
+      "max_players": "4",
+      "min_playtime": "120",
+      "max_playtime": "180",
+      "expansions_owned": [],
+      "categories": [
+        "Expansion for Base-game",
+        "Adventure",
+        "Fantasy",
+        "Fighting",
+        "Miniatures"
+      ],
+      "mechanics": [
+        "Cooperative Game",
+        "Dice Rolling",
+        "Grid Movement",
+        "Modular Board",
+        "Movement Points",
+        "Role Playing",
+        "Scenario / Mission / Campaign Game",
+        "Solo / Solitaire Game",
+        "Variable Player Powers"
+      ],
+      "families": [
+        "Category: Dungeon Crawler",
+        "Components: Digital Hybrid \u2013 App/Website Required",
+        "Components: Miniatures",
+        "Creatures: Monsters",
+        "Mechanism: Campaign Games",
+        "Setting: The Realms of Terrinoth",
+        "Theme: Art style \u2013 Art Deco"
+      ]
+    },
+    {
+      "id": "281332",
+      "name": "Dice Throne: Adventures",
+      "year": "2020",
+      "thumbnail": "https://cf.geekdo-images.com/kZ9S1yzOdBuftKjgbNzrbA__small/img/ki35M633JXlhizWLVcHdFsTH9Bk=/fit-in/200x150/filters:strip_icc()/pic5944413.jpg",
+      "image": "https://cf.geekdo-images.com/kZ9S1yzOdBuftKjgbNzrbA__original/img/mcmGd-grmCidHxVR22LMjP_mfMk=/0x0/filters:format(jpeg)/pic5944413.jpg",
+      "avg_rating": "8.08935",
+      "num_ratings": "2722",
+      "user_rating": "8",
+      "weight": "",
+      "num_plays": "0",
+      "min_players": "1",
+      "max_players": "4",
+      "min_playtime": "90",
+      "max_playtime": "120",
+      "expansions_owned": [],
+      "categories": [
+        "Expansion for Base-game",
+        "Card Game",
+        "Dice",
+        "Fantasy",
+        "Fighting"
+      ],
+      "mechanics": [
+        "Cooperative Game",
+        "Dice Rolling",
+        "Take That",
+        "Team-Based Game",
+        "Variable Player Powers"
+      ],
+      "families": [
+        "Components: Standees",
+        "Crowdfunding: Kickstarter",
+        "Game: Dice Throne",
+        "Mechanism: Campaign Games"
+      ]
+    },
+    {
       "id": "322562",
       "name": "Dice Throne: Season One ReRolled \u2013 Monk v. Paladin",
       "year": "2021",
@@ -677,6 +1028,7 @@
       "max_players": "2",
       "min_playtime": "20",
       "max_playtime": "40",
+      "expansions_owned": [],
       "categories": [
         "Card Game",
         "Dice",
@@ -710,6 +1062,7 @@
       "max_players": "2",
       "min_playtime": "20",
       "max_playtime": "40",
+      "expansions_owned": [],
       "categories": [
         "Card Game",
         "Dice",
@@ -743,6 +1096,7 @@
       "max_players": "2",
       "min_playtime": "20",
       "max_playtime": "40",
+      "expansions_owned": [],
       "categories": [
         "Card Game",
         "Dice",
@@ -776,6 +1130,7 @@
       "max_players": "6",
       "min_playtime": "20",
       "max_playtime": "40",
+      "expansions_owned": [],
       "categories": [
         "Card Game",
         "Dice",
@@ -809,6 +1164,7 @@
       "max_players": "6",
       "min_playtime": "45",
       "max_playtime": "120",
+      "expansions_owned": [],
       "categories": [
         "Card Game",
         "Fantasy",
@@ -856,6 +1212,7 @@
       "max_players": "1",
       "min_playtime": "20",
       "max_playtime": "30",
+      "expansions_owned": [],
       "categories": [
         "Adventure",
         "Fantasy",
@@ -875,6 +1232,69 @@
       ]
     },
     {
+      "id": "409837",
+      "name": "Dragons of Etchinstone: Northvale",
+      "year": "2024",
+      "thumbnail": "https://cf.geekdo-images.com/XceYbrLcM2qcuPuEvREeMw__small/img/YJv_zWQyidmSwe3JXog0IDned8M=/fit-in/200x150/filters:strip_icc()/pic9316643.jpg",
+      "image": "https://cf.geekdo-images.com/XceYbrLcM2qcuPuEvREeMw__original/img/9yLhV32jQ2SkmbgV2bBBo98E8a8=/0x0/filters:format(jpeg)/pic9316643.jpg",
+      "avg_rating": "8.31488",
+      "num_ratings": "84",
+      "user_rating": "",
+      "weight": "",
+      "num_plays": "0",
+      "min_players": "1",
+      "max_players": "1",
+      "min_playtime": "20",
+      "max_playtime": "30",
+      "expansions_owned": [],
+      "categories": [
+        "Expansion for Base-game",
+        "Adventure",
+        "Fantasy",
+        "Print & Play"
+      ],
+      "mechanics": [
+        "Deck, Bag, and Pool Building",
+        "Hand Management",
+        "Solo / Solitaire Game"
+      ],
+      "families": [
+        "Category: Print-on-Demand",
+        "Misc: No Table Needed"
+      ]
+    },
+    {
+      "id": "443422",
+      "name": "Dragons of Etchinstone: Siege",
+      "year": "2025",
+      "thumbnail": "https://cf.geekdo-images.com/hWln4lLdmJQ1p5FLmmSJEQ__small/img/XlWo4RWfdQi_GQsZ4_31aoQxobc=/fit-in/200x150/filters:strip_icc()/pic9316647.jpg",
+      "image": "https://cf.geekdo-images.com/hWln4lLdmJQ1p5FLmmSJEQ__original/img/d5CcG2a9j9fjVmWhFdMM0pFdFXA=/0x0/filters:format(jpeg)/pic9316647.jpg",
+      "avg_rating": "8.27167",
+      "num_ratings": "30",
+      "user_rating": "",
+      "weight": "",
+      "num_plays": "0",
+      "min_players": "1",
+      "max_players": "1",
+      "min_playtime": "60",
+      "max_playtime": "60",
+      "expansions_owned": [],
+      "categories": [
+        "Expansion for Base-game",
+        "Adventure",
+        "Card Game"
+      ],
+      "mechanics": [
+        "Deck, Bag, and Pool Building",
+        "Hand Management",
+        "Move Through Deck",
+        "Solo / Solitaire Game"
+      ],
+      "families": [
+        "Admin: Upcoming Releases"
+      ]
+    },
+    {
       "id": "316554",
       "name": "Dune: Imperium",
       "year": "2020",
@@ -889,6 +1309,7 @@
       "max_players": "4",
       "min_playtime": "60",
       "max_playtime": "120",
+      "expansions_owned": [],
       "categories": [
         "Movies / TV / Radio theme",
         "Novel-based",
@@ -941,6 +1362,7 @@
       "max_players": "4",
       "min_playtime": "60",
       "max_playtime": "240",
+      "expansions_owned": [],
       "categories": [
         "Adventure",
         "Card Game",
@@ -987,6 +1409,7 @@
       "max_players": "4",
       "min_playtime": "40",
       "max_playtime": "80",
+      "expansions_owned": [],
       "categories": [
         "Animals",
         "Card Game",
@@ -1041,6 +1464,47 @@
       ]
     },
     {
+      "id": "289056",
+      "name": "Everdell: Spirecrest",
+      "year": "2020",
+      "thumbnail": "https://cf.geekdo-images.com/ZshJNf6B9Cui1lLf-S-FcA__small/img/jZl43KKGTNbrBvPHsnhMG_V1Oe0=/fit-in/200x150/filters:strip_icc()/pic4950750.jpg",
+      "image": "https://cf.geekdo-images.com/ZshJNf6B9Cui1lLf-S-FcA__original/img/-YZRWsW-Rs4UGsJNTnBCOlOAa9k=/0x0/filters:format(jpeg)/pic4950750.jpg",
+      "avg_rating": "8.27213",
+      "num_ratings": "4197",
+      "user_rating": "",
+      "weight": "",
+      "num_plays": "0",
+      "min_players": "1",
+      "max_players": "4",
+      "min_playtime": "40",
+      "max_playtime": "100",
+      "expansions_owned": [],
+      "categories": [
+        "Animals",
+        "Card Game",
+        "City Building",
+        "Expansion for Base-game",
+        "Fantasy"
+      ],
+      "mechanics": [
+        "Events",
+        "Hand Management",
+        "Open Drafting",
+        "Set Collection",
+        "Worker Placement"
+      ],
+      "families": [
+        "Components: Meeples (Animal) / Animeeples",
+        "Crowdfunding: Kickstarter",
+        "Digital Implementations: Tabletopia",
+        "Game: Everdell",
+        "Mechanism: Tableau Building",
+        "Misc: LongPack Games",
+        "Theme: Anthropomorphic Animals",
+        "Theme: Weather"
+      ]
+    },
+    {
       "id": "232918",
       "name": "Fallout",
       "year": "2017",
@@ -1055,6 +1519,7 @@
       "max_players": "4",
       "min_playtime": "120",
       "max_playtime": "180",
+      "expansions_owned": [],
       "categories": [
         "Adventure",
         "Exploration",
@@ -1096,6 +1561,7 @@
       "max_players": "1",
       "min_playtime": "20",
       "max_playtime": "60",
+      "expansions_owned": [],
       "categories": [
         "Card Game",
         "Fantasy",
@@ -1123,6 +1589,38 @@
       ]
     },
     {
+      "id": "307686",
+      "name": "Final Girl: Carnage at the Carnival",
+      "year": "2021",
+      "thumbnail": "https://cf.geekdo-images.com/iEGnWjR-7V4dcnN-c6-GJQ__small/img/x9kQ9OcO0dC_jL5dHofu0Ywe3-w=/fit-in/200x150/filters:strip_icc()/pic7486293.jpg",
+      "image": "https://cf.geekdo-images.com/iEGnWjR-7V4dcnN-c6-GJQ__original/img/YsyLqgKpADjCFw4g3_ivLIBJmtw=/0x0/filters:format(jpeg)/pic7486293.jpg",
+      "avg_rating": "8.00644",
+      "num_ratings": "1326",
+      "user_rating": "6",
+      "weight": "",
+      "num_plays": "0",
+      "min_players": "1",
+      "max_players": "1",
+      "min_playtime": "20",
+      "max_playtime": "60",
+      "expansions_owned": [],
+      "categories": [
+        "Expansion for Base-game",
+        "Horror"
+      ],
+      "mechanics": [
+        "Solo / Solitaire Game"
+      ],
+      "families": [
+        "Game: Final Girl",
+        "Containers: Video Tape Boxes",
+        "Crowdfunding: Kickstarter",
+        "Crowdfunding: Wspieram",
+        "Game: Final Girl, Series 1",
+        "Misc: LongPack Games"
+      ]
+    },
+    {
       "id": "136063",
       "name": "Forbidden Desert",
       "year": "2013",
@@ -1137,6 +1635,7 @@
       "max_players": "5",
       "min_playtime": "45",
       "max_playtime": "45",
+      "expansions_owned": [],
       "categories": [
         "Adventure",
         "Fantasy",
@@ -1181,6 +1680,7 @@
       "max_players": "4",
       "min_playtime": "30",
       "max_playtime": "30",
+      "expansions_owned": [],
       "categories": [
         "Adventure",
         "Fantasy",
@@ -1226,6 +1726,7 @@
       "max_players": "4",
       "min_playtime": "90",
       "max_playtime": "180",
+      "expansions_owned": [],
       "categories": [
         "Adventure",
         "Exploration",
@@ -1283,6 +1784,7 @@
       "max_players": "4",
       "min_playtime": "60",
       "max_playtime": "150",
+      "expansions_owned": [],
       "categories": [
         "Civilization",
         "Economic",
@@ -1335,6 +1837,7 @@
       "max_players": "1",
       "min_playtime": "15",
       "max_playtime": "30",
+      "expansions_owned": [],
       "categories": [
         "Horror",
         "Medieval"
@@ -1368,6 +1871,7 @@
       "max_players": "4",
       "min_playtime": "60",
       "max_playtime": "120",
+      "expansions_owned": [],
       "categories": [
         "Adventure",
         "Exploration",
@@ -1437,6 +1941,7 @@
       "max_players": "1",
       "min_playtime": "20",
       "max_playtime": "20",
+      "expansions_owned": [],
       "categories": [
         "Adventure",
         "Card Game",
@@ -1469,6 +1974,51 @@
       ]
     },
     {
+      "id": "250337",
+      "name": "Gloomhaven: Forgotten Circles",
+      "year": "2019",
+      "thumbnail": "https://cf.geekdo-images.com/qV0P8aviaET-qIIUCZnvmA__small/img/4t-2yn7uxNre3ZiRNHP4UTjIlsk=/fit-in/200x150/filters:strip_icc()/pic4066738.jpg",
+      "image": "https://cf.geekdo-images.com/qV0P8aviaET-qIIUCZnvmA__original/img/kYnNMdUTH-2S11GWm2mhulVpUDg=/0x0/filters:format(jpeg)/pic4066738.jpg",
+      "avg_rating": "7.7016",
+      "num_ratings": "2642",
+      "user_rating": "",
+      "weight": "",
+      "num_plays": "0",
+      "min_players": "1",
+      "max_players": "4",
+      "min_playtime": "60",
+      "max_playtime": "120",
+      "expansions_owned": [],
+      "categories": [
+        "Expansion for Base-game",
+        "Adventure",
+        "Exploration",
+        "Fantasy",
+        "Fighting",
+        "Miniatures"
+      ],
+      "mechanics": [
+        "Campaign / Battle Card Driven",
+        "Cooperative Game",
+        "Grid Movement",
+        "Hand Management",
+        "Hexagon Grid",
+        "Modular Board",
+        "Scenario / Mission / Campaign Game",
+        "Simultaneous Action Selection",
+        "Variable Player Powers"
+      ],
+      "families": [
+        "Components: Miniatures",
+        "Components: Standees",
+        "Game: Gloomhaven",
+        "Mechanism: Campaign Games",
+        "Mechanism: Legacy",
+        "Misc: Forteller Audio Narration",
+        "Players: Games with Solitaire Rules"
+      ]
+    },
+    {
       "id": "291457",
       "name": "Gloomhaven: Jaws of the Lion",
       "year": "2020",
@@ -1483,6 +2033,7 @@
       "max_players": "4",
       "min_playtime": "30",
       "max_playtime": "120",
+      "expansions_owned": [],
       "categories": [
         "Adventure",
         "Exploration",
@@ -1543,6 +2094,7 @@
       "max_players": "4",
       "min_playtime": "30",
       "max_playtime": "60",
+      "expansions_owned": [],
       "categories": [
         "Animals",
         "Card Game",
@@ -1579,6 +2131,7 @@
       "max_players": "6",
       "min_playtime": "30",
       "max_playtime": "60",
+      "expansions_owned": [],
       "categories": [
         "Animals",
         "Card Game",
@@ -1632,6 +2185,7 @@
       "max_players": "5",
       "min_playtime": "30",
       "max_playtime": "90",
+      "expansions_owned": [],
       "categories": [
         "Card Game",
         "Fantasy",
@@ -1667,6 +2221,7 @@
       "max_players": "3",
       "min_playtime": "90",
       "max_playtime": "120",
+      "expansions_owned": [],
       "categories": [
         "Environmental",
         "Fantasy",
@@ -1718,6 +2273,7 @@
       "max_players": "5",
       "min_playtime": "60",
       "max_playtime": "60",
+      "expansions_owned": [],
       "categories": [
         "Horror"
       ],
@@ -1758,6 +2314,7 @@
       "max_players": "2",
       "min_playtime": "20",
       "max_playtime": "30",
+      "expansions_owned": [],
       "categories": [
         "Card Game",
         "Horror",
@@ -1789,6 +2346,7 @@
       "max_players": "5",
       "min_playtime": "20",
       "max_playtime": "60",
+      "expansions_owned": [],
       "categories": [
         "Civilization",
         "Mythology",
@@ -1823,6 +2381,7 @@
       "max_players": "4",
       "min_playtime": "40",
       "max_playtime": "160",
+      "expansions_owned": [],
       "categories": [
         "Card Game",
         "Civilization"
@@ -1871,6 +2430,7 @@
       "max_players": "2",
       "min_playtime": "60",
       "max_playtime": "60",
+      "expansions_owned": [],
       "categories": [
         "Card Game",
         "Fantasy",
@@ -1906,6 +2466,7 @@
       "max_players": "1",
       "min_playtime": "60",
       "max_playtime": "60",
+      "expansions_owned": [],
       "categories": [
         "Ancient",
         "City Building"
@@ -1943,6 +2504,7 @@
       "max_players": "4",
       "min_playtime": "30",
       "max_playtime": "120",
+      "expansions_owned": [],
       "categories": [
         "Adventure",
         "Card Game",
@@ -1984,6 +2546,42 @@
       ]
     },
     {
+      "id": "341254",
+      "name": "Lost Ruins of Arnak: Expedition Leaders",
+      "year": "2021",
+      "thumbnail": "https://cf.geekdo-images.com/U4aoXbKATU7YbA8bAT73FQ__small/img/g0aac2-OQvMbEPXv1vIvSumPmkA=/fit-in/200x150/filters:strip_icc()/pic6253876.png",
+      "image": "https://cf.geekdo-images.com/U4aoXbKATU7YbA8bAT73FQ__original/img/TKJnD49aci6Soc214_MTUe1iNmg=/0x0/filters:format(png)/pic6253876.png",
+      "avg_rating": "8.70908",
+      "num_ratings": "9311",
+      "user_rating": "7",
+      "weight": "",
+      "num_plays": "0",
+      "min_players": "1",
+      "max_players": "4",
+      "min_playtime": "30",
+      "max_playtime": "120",
+      "expansions_owned": [],
+      "categories": [
+        "Expansion for Base-game",
+        "Adventure",
+        "Ancient",
+        "Exploration",
+        "Travel"
+      ],
+      "mechanics": [
+        "Deck, Bag, and Pool Building",
+        "Open Drafting",
+        "Solo / Solitaire Game",
+        "Variable Player Powers",
+        "Worker Placement"
+      ],
+      "families": [
+        "Game: Lost Ruins of Arnak",
+        "Players: Games with Solitaire Rules",
+        "Theme: Archaeology / Paleontology"
+      ]
+    },
+    {
       "id": "864",
       "name": "Mage Knight",
       "year": "2000",
@@ -1998,6 +2596,7 @@
       "max_players": "4",
       "min_playtime": "60",
       "max_playtime": "60",
+      "expansions_owned": [],
       "categories": [
         "Collectible Components",
         "Fantasy",
@@ -2026,6 +2625,7 @@
       "max_players": "5",
       "min_playtime": "120",
       "max_playtime": "180",
+      "expansions_owned": [],
       "categories": [
         "Adventure",
         "Exploration",
@@ -2075,6 +2675,7 @@
       "max_players": "4",
       "min_playtime": "45",
       "max_playtime": "90",
+      "expansions_owned": [],
       "categories": [
         "Card Game",
         "Collectible Components",
@@ -2105,6 +2706,45 @@
       ]
     },
     {
+      "id": "315896",
+      "name": "Marvel Champions: The Card Game \u2013 The Galaxy's Most Wanted",
+      "year": "2021",
+      "thumbnail": "https://cf.geekdo-images.com/l8mHw41U2cp63RyVfPIYfQ__small/img/kc7wWutKyZkwcdZK1bnp6ZeFL6U=/fit-in/200x150/filters:strip_icc()/pic6077779.jpg",
+      "image": "https://cf.geekdo-images.com/l8mHw41U2cp63RyVfPIYfQ__original/img/KvqBQ1bQW_-Hp6xVb6wzoRAba3M=/0x0/filters:format(jpeg)/pic6077779.jpg",
+      "avg_rating": "7.75545",
+      "num_ratings": "1393",
+      "user_rating": "8",
+      "weight": "",
+      "num_plays": "0",
+      "min_players": "1",
+      "max_players": "4",
+      "min_playtime": "45",
+      "max_playtime": "90",
+      "expansions_owned": [],
+      "categories": [
+        "Expansion for Base-game",
+        "Card Game",
+        "Collectible Components",
+        "Comic Book / Strip"
+      ],
+      "mechanics": [
+        "Cooperative Game",
+        "Deck Construction",
+        "Hand Management",
+        "Scenario / Mission / Campaign Game",
+        "Solo / Solitaire Game",
+        "Variable Player Powers",
+        "Variable Set-up"
+      ],
+      "families": [
+        "Collectible: Living Card Game (Fantasy Flight Games)",
+        "Comic Books: Marvel Universe",
+        "Game: Marvel Champions \u2013 The Card Game",
+        "Players: Games with Solitaire Rules",
+        "Theme: Superheroes"
+      ]
+    },
+    {
       "id": "348406",
       "name": "Marvel Dice Throne",
       "year": "2022",
@@ -2119,6 +2759,7 @@
       "max_players": "6",
       "min_playtime": "20",
       "max_playtime": "40",
+      "expansions_owned": [],
       "categories": [
         "Card Game",
         "Comic Book / Strip",
@@ -2144,6 +2785,73 @@
       ]
     },
     {
+      "id": "403511",
+      "name": "Marvel Dice Throne: Deadpool",
+      "year": "2025",
+      "thumbnail": "https://cf.geekdo-images.com/MNJL-0cmvvOQVRdhRJ6IFQ__small/img/hq6PKKswxS6DXwC89d91eEqbwcw=/fit-in/200x150/filters:strip_icc()/pic7796967.jpg",
+      "image": "https://cf.geekdo-images.com/MNJL-0cmvvOQVRdhRJ6IFQ__original/img/4q_m-IUj5jVBz2DslizkbS59dbg=/0x0/filters:format(jpeg)/pic7796967.jpg",
+      "avg_rating": "8.37731",
+      "num_ratings": "348",
+      "user_rating": "",
+      "weight": "",
+      "num_plays": "0",
+      "min_players": "2",
+      "max_players": "6",
+      "min_playtime": "20",
+      "max_playtime": "40",
+      "expansions_owned": [],
+      "categories": [
+        "Expansion for Base-game",
+        "Card Game",
+        "Comic Book / Strip",
+        "Fighting",
+        "Movies / TV / Radio theme"
+      ],
+      "mechanics": [
+        "Dice Rolling",
+        "Variable Player Powers"
+      ],
+      "families": [
+        "Crowdfunding: Kickstarter",
+        "Game: Dice Throne"
+      ]
+    },
+    {
+      "id": "403495",
+      "name": "Marvel Dice Throne: Missions",
+      "year": "2025",
+      "thumbnail": "https://cf.geekdo-images.com/dR5I63b7Xd7fXZwcXK7LYg__small/img/QB2SJb3RD4w-RURI9XlyBz7YzaY=/fit-in/200x150/filters:strip_icc()/pic7796969.jpg",
+      "image": "https://cf.geekdo-images.com/dR5I63b7Xd7fXZwcXK7LYg__original/img/1bZ7L5j4ldS71aUrf_D7nz8E_cA=/0x0/filters:format(jpeg)/pic7796969.jpg",
+      "avg_rating": "8.35296",
+      "num_ratings": "606",
+      "user_rating": "4",
+      "weight": "",
+      "num_plays": "0",
+      "min_players": "1",
+      "max_players": "4",
+      "min_playtime": "30",
+      "max_playtime": "75",
+      "expansions_owned": [],
+      "categories": [
+        "Expansion for Base-game",
+        "Card Game",
+        "Comic Book / Strip",
+        "Dice",
+        "Fighting",
+        "Movies / TV / Radio theme"
+      ],
+      "mechanics": [
+        "Cooperative Game",
+        "Dice Rolling",
+        "Variable Player Powers"
+      ],
+      "families": [
+        "Admin: Better Description Needed!",
+        "Crowdfunding: Kickstarter",
+        "Game: Dice Throne"
+      ]
+    },
+    {
       "id": "403494",
       "name": "Marvel Dice Throne: X-Men",
       "year": "2025",
@@ -2158,6 +2866,7 @@
       "max_players": "6",
       "min_playtime": "20",
       "max_playtime": "40",
+      "expansions_owned": [],
       "categories": [
         "Card Game",
         "Comic Book / Strip",
@@ -2194,6 +2903,7 @@
       "max_players": "4",
       "min_playtime": "40",
       "max_playtime": "80",
+      "expansions_owned": [],
       "categories": [
         "Card Game",
         "Comic Book / Strip",
@@ -2228,6 +2938,7 @@
       "max_players": "4",
       "min_playtime": "45",
       "max_playtime": "45",
+      "expansions_owned": [],
       "categories": [
         "Card Game"
       ],
@@ -2261,6 +2972,7 @@
       "max_players": "5",
       "min_playtime": "90",
       "max_playtime": "180",
+      "expansions_owned": [],
       "categories": [
         "Adventure",
         "Horror",
@@ -2310,6 +3022,7 @@
       "max_players": "5",
       "min_playtime": "90",
       "max_playtime": "180",
+      "expansions_owned": [],
       "categories": [
         "Adventure",
         "Exploration",
@@ -2360,6 +3073,7 @@
       "max_players": "4",
       "min_playtime": "45",
       "max_playtime": "180",
+      "expansions_owned": [],
       "categories": [
         "City Building",
         "Exploration",
@@ -2397,6 +3111,7 @@
       "max_players": "6",
       "min_playtime": "45",
       "max_playtime": "150",
+      "expansions_owned": [],
       "categories": [
         "Economic",
         "Fantasy",
@@ -2442,6 +3157,7 @@
       "max_players": "8",
       "min_playtime": "40",
       "max_playtime": "40",
+      "expansions_owned": [],
       "categories": [
         "Bluffing",
         "Deduction",
@@ -2477,6 +3193,7 @@
       "max_players": "2",
       "min_playtime": "30",
       "max_playtime": "45",
+      "expansions_owned": [],
       "categories": [
         "Card Game",
         "Dice",
@@ -2525,6 +3242,7 @@
       "max_players": "2",
       "min_playtime": "15",
       "max_playtime": "15",
+      "expansions_owned": [],
       "categories": [
         "Card Game",
         "Exploration",
@@ -2562,6 +3280,7 @@
       "max_players": "4",
       "min_playtime": "45",
       "max_playtime": "45",
+      "expansions_owned": [],
       "categories": [
         "Medical",
         "Travel"
@@ -2621,6 +3340,7 @@
       "max_players": "5",
       "min_playtime": "30",
       "max_playtime": "60",
+      "expansions_owned": [],
       "categories": [
         "Animals",
         "Economic",
@@ -2668,6 +3388,7 @@
       "max_players": "1",
       "min_playtime": "30",
       "max_playtime": "45",
+      "expansions_owned": [],
       "categories": [
         "Dice",
         "Fantasy",
@@ -2701,6 +3422,7 @@
       "max_players": "1",
       "min_playtime": "20",
       "max_playtime": "40",
+      "expansions_owned": [],
       "categories": [
         "Card Game",
         "Civil War",
@@ -2743,6 +3465,7 @@
       "max_players": "4",
       "min_playtime": "60",
       "max_playtime": "120",
+      "expansions_owned": [],
       "categories": [
         "Adventure",
         "Exploration",
@@ -2800,6 +3523,7 @@
       "max_players": "4",
       "min_playtime": "60",
       "max_playtime": "90",
+      "expansions_owned": [],
       "categories": [
         "Animals",
         "Fantasy",
@@ -2856,6 +3580,89 @@
       ]
     },
     {
+      "id": "334483",
+      "name": "Root: The Clockwork Expansion 2",
+      "year": "2022",
+      "thumbnail": "https://cf.geekdo-images.com/lES5vHtu7bbw2ssr3ugx9A__small/img/vx95frvX0yDdF3iNMTZYM7fmUbM=/fit-in/200x150/filters:strip_icc()/pic6108376.jpg",
+      "image": "https://cf.geekdo-images.com/lES5vHtu7bbw2ssr3ugx9A__original/img/xdpHhFIsV55vGWPnKH4J3o4LzbY=/0x0/filters:format(jpeg)/pic6108376.jpg",
+      "avg_rating": "8.03322",
+      "num_ratings": "556",
+      "user_rating": "",
+      "weight": "",
+      "num_plays": "0",
+      "min_players": "1",
+      "max_players": "4",
+      "min_playtime": "60",
+      "max_playtime": "90",
+      "expansions_owned": [],
+      "categories": [
+        "Expansion for Base-game",
+        "Animals",
+        "Fantasy",
+        "Wargame"
+      ],
+      "mechanics": [
+        "Action Queue",
+        "Area Majority / Influence",
+        "Dice Rolling",
+        "Hand Management",
+        "Point to Point Movement",
+        "Solo / Solitaire Game",
+        "Variable Player Powers",
+        "Variable Set-up"
+      ],
+      "families": [
+        "Category: Autonomous simulation",
+        "Crowdfunding: Kickstarter",
+        "Game: Root"
+      ]
+    },
+    {
+      "id": "241386",
+      "name": "Root: The Riverfolk Expansion",
+      "year": "2018",
+      "thumbnail": "https://cf.geekdo-images.com/durhzLYyIypxg7CuVYe82Q__small/img/VianPUKU3XkBGeiqRm6x2IyeMGA=/fit-in/200x150/filters:strip_icc()/pic4252654.jpg",
+      "image": "https://cf.geekdo-images.com/durhzLYyIypxg7CuVYe82Q__original/img/xrLTlVUWtteTsoXmYLM2KM190DE=/0x0/filters:format(jpeg)/pic4252654.jpg",
+      "avg_rating": "8.43192",
+      "num_ratings": "9223",
+      "user_rating": "",
+      "weight": "",
+      "num_plays": "0",
+      "min_players": "1",
+      "max_players": "6",
+      "min_playtime": "60",
+      "max_playtime": "90",
+      "expansions_owned": [],
+      "categories": [
+        "Animals",
+        "Expansion for Base-game",
+        "Fantasy",
+        "Wargame"
+      ],
+      "mechanics": [
+        "Area Majority / Influence",
+        "Area Movement",
+        "Cooperative Game",
+        "Dice Rolling",
+        "Hand Management",
+        "Race",
+        "Solo / Solitaire Game",
+        "Variable Player Powers"
+      ],
+      "families": [
+        "Animals: Lizards",
+        "Animals: Otters",
+        "Crowdfunding: Kickstarter",
+        "Game: Root",
+        "Players: Expansions Adding Cooperative Play",
+        "Players: Expansions Adding Solo Play",
+        "Players: Expansions Changing Player Count",
+        "Theme: Animal Battles",
+        "Theme: Anthropomorphic Animals",
+        "Theme: Nature"
+      ]
+    },
+    {
       "id": "228855",
       "name": "Set a Watch",
       "year": "2019",
@@ -2870,6 +3677,7 @@
       "max_players": "4",
       "min_playtime": "45",
       "max_playtime": "80",
+      "expansions_owned": [],
       "categories": [
         "Adventure",
         "Card Game",
@@ -2896,6 +3704,34 @@
       ]
     },
     {
+      "id": "322601",
+      "name": "Set a Watch: Outriders Expansion",
+      "year": "2021",
+      "thumbnail": "https://cf.geekdo-images.com/ZIGN1irpl7bo1yaNsFA34g__small/img/W1QSRrNpcCwN5XVchBEy44flpOo=/fit-in/200x150/filters:strip_icc()/pic6507499.png",
+      "image": "https://cf.geekdo-images.com/ZIGN1irpl7bo1yaNsFA34g__original/img/uKVV5run7cFCp_XMud8HKmtuduo=/0x0/filters:format(png)/pic6507499.png",
+      "avg_rating": "7.64298",
+      "num_ratings": "247",
+      "user_rating": "6",
+      "weight": "",
+      "num_plays": "0",
+      "min_players": "1",
+      "max_players": "4",
+      "min_playtime": "60",
+      "max_playtime": "75",
+      "expansions_owned": [],
+      "categories": [
+        "Expansion for Base-game"
+      ],
+      "mechanics": [
+        "Cooperative Game"
+      ],
+      "families": [
+        "Crowdfunding: Kickstarter",
+        "Players: Games with Solitaire Rules",
+        "Series: Set a Watch (Rock Manor Games)"
+      ]
+    },
+    {
       "id": "307386",
       "name": "Set a Watch: Swords of the Coin",
       "year": "2021",
@@ -2910,6 +3746,7 @@
       "max_players": "4",
       "min_playtime": "60",
       "max_playtime": "75",
+      "expansions_owned": [],
       "categories": [
         "Adventure",
         "Card Game",
@@ -2946,6 +3783,7 @@
       "max_players": "4",
       "min_playtime": "30",
       "max_playtime": "150",
+      "expansions_owned": [],
       "categories": [
         "Adventure",
         "Card Game",
@@ -2988,6 +3826,7 @@
       "max_players": "4",
       "min_playtime": "60",
       "max_playtime": "1200",
+      "expansions_owned": [],
       "categories": [
         "Adventure",
         "Exploration",
@@ -3038,6 +3877,7 @@
       "max_players": "4",
       "min_playtime": "90",
       "max_playtime": "120",
+      "expansions_owned": [],
       "categories": [
         "Environmental",
         "Fantasy",
@@ -3096,6 +3936,7 @@
       "max_players": "20",
       "min_playtime": "15",
       "max_playtime": "15",
+      "expansions_owned": [],
       "categories": [
         "Card Game",
         "Comic Book / Strip",
@@ -3127,6 +3968,7 @@
       "max_players": "4",
       "min_playtime": "60",
       "max_playtime": "120",
+      "expansions_owned": [],
       "categories": [
         "Card Game",
         "Dice",
@@ -3167,6 +4009,7 @@
       "max_players": "4",
       "min_playtime": "60",
       "max_playtime": "180",
+      "expansions_owned": [],
       "categories": [
         "Adventure",
         "Exploration",
@@ -3223,6 +4066,7 @@
       "max_players": "5",
       "min_playtime": "120",
       "max_playtime": "120",
+      "expansions_owned": [],
       "categories": [
         "Civilization",
         "Economic",
@@ -3268,6 +4112,204 @@
       ]
     },
     {
+      "id": "395612",
+      "name": "Terraforming Mars: Automa",
+      "year": "2024",
+      "thumbnail": "https://cf.geekdo-images.com/KJfWEGMzgEs0teY9WqFj6w__small/img/MsJ82yxJ_v9IXpPdil8VpBjQ_x8=/fit-in/200x150/filters:strip_icc()/pic7722761.jpg",
+      "image": "https://cf.geekdo-images.com/KJfWEGMzgEs0teY9WqFj6w__original/img/JQqRpEygDWYr9DiVnSDD8PCmhBY=/0x0/filters:format(jpeg)/pic7722761.jpg",
+      "avg_rating": "8.42492",
+      "num_ratings": "545",
+      "user_rating": "4",
+      "weight": "",
+      "num_plays": "0",
+      "min_players": "1",
+      "max_players": "1",
+      "min_playtime": "",
+      "max_playtime": "",
+      "expansions_owned": [],
+      "categories": [
+        "Economic",
+        "Environmental",
+        "Expansion for Base-game",
+        "Industry / Manufacturing",
+        "Science Fiction"
+      ],
+      "mechanics": [
+        "Hand Management",
+        "Open Drafting",
+        "Tile Placement"
+      ],
+      "families": [
+        "Game: Terraforming Mars",
+        "Players: Games with Solitaire Rules",
+        "Series: Terraforming Mars",
+        "Setting: Future Timeline (Fryxgames)",
+        "Space: Earth's Solar System",
+        "Space: Mars"
+      ]
+    },
+    {
+      "id": "255681",
+      "name": "Terraforming Mars: Colonies",
+      "year": "2018",
+      "thumbnail": "https://cf.geekdo-images.com/OyCyHETRL-RzzYKlF8jshA__small/img/WpvEB_JcNNPngED5fDPb3qZOUEA=/fit-in/200x150/filters:strip_icc()/pic4193099.jpg",
+      "image": "https://cf.geekdo-images.com/OyCyHETRL-RzzYKlF8jshA__original/img/SbCa7xHGKW3v8tYf2CwPYH4t0tQ=/0x0/filters:format(jpeg)/pic4193099.jpg",
+      "avg_rating": "8.10399",
+      "num_ratings": "8402",
+      "user_rating": "8",
+      "weight": "",
+      "num_plays": "0",
+      "min_players": "1",
+      "max_players": "5",
+      "min_playtime": "120",
+      "max_playtime": "120",
+      "expansions_owned": [],
+      "categories": [
+        "Expansion for Base-game",
+        "Economic",
+        "Environmental",
+        "Industry / Manufacturing",
+        "Science Fiction",
+        "Territory Building"
+      ],
+      "mechanics": [
+        "Hand Management",
+        "Increase Value of Unchosen Resources",
+        "Open Drafting",
+        "Set Collection",
+        "Tile Placement",
+        "Variable Player Powers",
+        "Worker Placement"
+      ],
+      "families": [
+        "Digital Implementations: Board Game Arena",
+        "Game: Terraforming Mars",
+        "Series: Terraforming Mars",
+        "Setting: Future Timeline (Fryxgames)",
+        "Space: Colonization / Extraterrestrial Colonisation",
+        "Space: Jupiter"
+      ]
+    },
+    {
+      "id": "218127",
+      "name": "Terraforming Mars: Hellas & Elysium",
+      "year": "2017",
+      "thumbnail": "https://cf.geekdo-images.com/7yS40E2oW3JY5_1HpDkmBw__small/img/nUbQgZ-hG7C8S1xU01rU-0HmIC0=/fit-in/200x150/filters:strip_icc()/pic3343205.jpg",
+      "image": "https://cf.geekdo-images.com/7yS40E2oW3JY5_1HpDkmBw__original/img/zrWa0cefvMsa28k7lFuW87Rea8M=/0x0/filters:format(jpeg)/pic3343205.jpg",
+      "avg_rating": "8.37574",
+      "num_ratings": "11871",
+      "user_rating": "8",
+      "weight": "",
+      "num_plays": "0",
+      "min_players": "1",
+      "max_players": "5",
+      "min_playtime": "90",
+      "max_playtime": "120",
+      "expansions_owned": [],
+      "categories": [
+        "Expansion for Base-game",
+        "Economic",
+        "Environmental",
+        "Industry / Manufacturing",
+        "Science Fiction",
+        "Space Exploration",
+        "Territory Building"
+      ],
+      "mechanics": [
+        "Closed Drafting",
+        "Hand Management",
+        "Tile Placement",
+        "Variable Player Powers"
+      ],
+      "families": [
+        "Digital Implementations: Board Game Arena",
+        "Game: Terraforming Mars",
+        "Series: Terraforming Mars",
+        "Setting: Future Timeline (Fryxgames)",
+        "Space: Earth's Solar System",
+        "Space: Mars"
+      ]
+    },
+    {
+      "id": "247030",
+      "name": "Terraforming Mars: Prelude",
+      "year": "2018",
+      "thumbnail": "https://cf.geekdo-images.com/2qrpbgsKEcvu5RLXpb6fgw__small/img/D5ierThzC9UcVe3mYB9n0-j5q5w=/fit-in/200x150/filters:strip_icc()/pic4137234.jpg",
+      "image": "https://cf.geekdo-images.com/2qrpbgsKEcvu5RLXpb6fgw__original/img/aJDspE-4X4Qyn9ViaBrXd-P7IJw=/0x0/filters:format(jpeg)/pic4137234.jpg",
+      "avg_rating": "8.84651",
+      "num_ratings": "17451",
+      "user_rating": "8",
+      "weight": "",
+      "num_plays": "0",
+      "min_players": "1",
+      "max_players": "5",
+      "min_playtime": "90",
+      "max_playtime": "120",
+      "expansions_owned": [],
+      "categories": [
+        "Expansion for Base-game",
+        "Economic",
+        "Environmental",
+        "Industry / Manufacturing",
+        "Science Fiction"
+      ],
+      "mechanics": [
+        "Hand Management",
+        "Open Drafting",
+        "Solo / Solitaire Game",
+        "Tile Placement"
+      ],
+      "families": [
+        "Digital Implementations: Board Game Arena",
+        "Game: Terraforming Mars",
+        "Players: Games with Solitaire Rules",
+        "Series: Terraforming Mars",
+        "Setting: Future Timeline (Fryxgames)",
+        "Space: Earth's Solar System",
+        "Space: Mars",
+        "Space: Venus"
+      ]
+    },
+    {
+      "id": "231965",
+      "name": "Terraforming Mars: Venus Next",
+      "year": "2017",
+      "thumbnail": "https://cf.geekdo-images.com/XuQN5HlG2bLbQu3AlQQgbQ__small/img/tf_tuTOtgXvRhibhHIa0uKh4l6Y=/fit-in/200x150/filters:strip_icc()/pic3767139.jpg",
+      "image": "https://cf.geekdo-images.com/XuQN5HlG2bLbQu3AlQQgbQ__original/img/fUz_sb0jBe0VtZctQpUrZ_nGX-Y=/0x0/filters:format(jpeg)/pic3767139.jpg",
+      "avg_rating": "7.57402",
+      "num_ratings": "9101",
+      "user_rating": "8",
+      "weight": "",
+      "num_plays": "0",
+      "min_players": "1",
+      "max_players": "5",
+      "min_playtime": "90",
+      "max_playtime": "120",
+      "expansions_owned": [],
+      "categories": [
+        "Expansion for Base-game",
+        "Economic",
+        "Educational",
+        "Environmental",
+        "Industry / Manufacturing",
+        "Science Fiction"
+      ],
+      "mechanics": [
+        "Hand Management",
+        "Open Drafting",
+        "Tile Placement"
+      ],
+      "families": [
+        "Game: Terraforming Mars",
+        "Players: Games with Solitaire Rules",
+        "Series: Terraforming Mars",
+        "Setting: Future Timeline (Fryxgames)",
+        "Space: Earth's Solar System",
+        "Space: Mars",
+        "Space: Venus"
+      ]
+    },
+    {
       "id": "236250",
       "name": "Testament",
       "year": "2017",
@@ -3282,6 +4324,7 @@
       "max_players": "4",
       "min_playtime": "60",
       "max_playtime": "60",
+      "expansions_owned": [],
       "categories": [
         "Fantasy"
       ],
@@ -3312,6 +4355,7 @@
       "max_players": "4",
       "min_playtime": "5",
       "max_playtime": "1000",
+      "expansions_owned": [],
       "categories": [
         "Adventure",
         "Card Game",
@@ -3335,6 +4379,41 @@
       ]
     },
     {
+      "id": "312515",
+      "name": "The 7th Continent: Forgotten Passages",
+      "year": "2020",
+      "thumbnail": "https://cf.geekdo-images.com/xPw72ZrMVzK96vTi2PCOeQ__small/img/1hsura4fYxYCKfDeicLiJfzDpNw=/fit-in/200x150/filters:strip_icc()/pic5673875.jpg",
+      "image": "https://cf.geekdo-images.com/xPw72ZrMVzK96vTi2PCOeQ__original/img/0ontljey9hdximOTtljeTapqjRQ=/0x0/filters:format(jpeg)/pic5673875.jpg",
+      "avg_rating": "8.37054",
+      "num_ratings": "112",
+      "user_rating": "8",
+      "weight": "",
+      "num_plays": "0",
+      "min_players": "1",
+      "max_players": "4",
+      "min_playtime": "5",
+      "max_playtime": "10000",
+      "expansions_owned": [],
+      "categories": [
+        "Expansion for Base-game",
+        "Adventure",
+        "Card Game",
+        "Exploration",
+        "Science Fiction"
+      ],
+      "mechanics": [
+        "Cooperative Game",
+        "Grid Movement",
+        "Hand Management",
+        "Modular Board",
+        "Storytelling",
+        "Variable Player Powers"
+      ],
+      "families": [
+        "Series: The 7th Continent"
+      ]
+    },
+    {
       "id": "254713",
       "name": "The Artemis Project",
       "year": "2019",
@@ -3349,6 +4428,7 @@
       "max_players": "5",
       "min_playtime": "60",
       "max_playtime": "75",
+      "expansions_owned": [],
       "categories": [
         "Dice",
         "Science Fiction",
@@ -3386,6 +4466,7 @@
       "max_players": "4",
       "min_playtime": "120",
       "max_playtime": "240",
+      "expansions_owned": [],
       "categories": [
         "Adventure",
         "Dice",
@@ -3426,6 +4507,7 @@
       "max_players": "4",
       "min_playtime": "30",
       "max_playtime": "120",
+      "expansions_owned": [],
       "categories": [
         "Adventure",
         "Card Game",
@@ -3467,6 +4549,7 @@
       "max_players": "6",
       "min_playtime": "45",
       "max_playtime": "120",
+      "expansions_owned": [],
       "categories": [
         "Adventure",
         "Exploration",
@@ -3514,6 +4597,7 @@
       "max_players": "6",
       "min_playtime": "15",
       "max_playtime": "15",
+      "expansions_owned": [],
       "categories": [
         "Action / Dexterity",
         "Card Game",
@@ -3546,6 +4630,7 @@
       "max_players": "4",
       "min_playtime": "30",
       "max_playtime": "60",
+      "expansions_owned": [],
       "categories": [
         "Adventure",
         "Dice",
@@ -3576,6 +4661,46 @@
       ]
     },
     {
+      "id": "334888",
+      "name": "Tiny Epic Dungeons: Stories",
+      "year": "2021",
+      "thumbnail": "https://cf.geekdo-images.com/Rsc9qhaotVfQ3Wx28BNzBA__small/img/uiTqZ8ZPJIJTw0Xrc9sW98EoWws=/fit-in/200x150/filters:strip_icc()/pic6158691.png",
+      "image": "https://cf.geekdo-images.com/Rsc9qhaotVfQ3Wx28BNzBA__original/img/GL1BvAiRp9tOYMGD74qLkhWldCo=/0x0/filters:format(png)/pic6158691.png",
+      "avg_rating": "7.80936",
+      "num_ratings": "1032",
+      "user_rating": "4",
+      "weight": "",
+      "num_plays": "0",
+      "min_players": "1",
+      "max_players": "4",
+      "min_playtime": "90",
+      "max_playtime": "180",
+      "expansions_owned": [],
+      "categories": [
+        "Expansion for Base-game",
+        "Dice",
+        "Fantasy"
+      ],
+      "mechanics": [
+        "Cooperative Game",
+        "Dice Rolling",
+        "Finale Ending",
+        "Modular Board",
+        "Solo / Solitaire Game",
+        "Tile Placement",
+        "Variable Player Powers",
+        "Variable Set-up"
+      ],
+      "families": [
+        "Category: Dungeon Crawler",
+        "Components:  Meeples",
+        "Components: Meeples (Monster)",
+        "Crowdfunding: Kickstarter",
+        "Series: Tiny Epic (Gamelyn Games/Tycoon Games)",
+        "Setting: Aughmoore"
+      ]
+    },
+    {
       "id": "192135",
       "name": "Too Many Bones",
       "year": "2017",
@@ -3590,6 +4715,7 @@
       "max_players": "4",
       "min_playtime": "60",
       "max_playtime": "120",
+      "expansions_owned": [],
       "categories": [
         "Adventure",
         "Dice",
@@ -3638,6 +4764,7 @@
       "max_players": "1",
       "min_playtime": "20",
       "max_playtime": "30",
+      "expansions_owned": [],
       "categories": [
         "Adventure",
         "Fantasy",
@@ -3674,6 +4801,7 @@
       "max_players": "1",
       "min_playtime": "20",
       "max_playtime": "40",
+      "expansions_owned": [],
       "categories": [
         "Dice",
         "Science Fiction"
@@ -3713,6 +4841,7 @@
       "max_players": "4",
       "min_playtime": "90",
       "max_playtime": "240",
+      "expansions_owned": [],
       "categories": [
         "Civilization",
         "Economic",
@@ -3756,6 +4885,7 @@
       "max_players": "1",
       "min_playtime": "30",
       "max_playtime": "45",
+      "expansions_owned": [],
       "categories": [
         "Science Fiction"
       ],
@@ -3784,6 +4914,7 @@
       "max_players": "1",
       "min_playtime": "30",
       "max_playtime": "45",
+      "expansions_owned": [],
       "categories": [
         "Dice",
         "Racing"
@@ -3805,5 +4936,6 @@
         "Theme: Post-Apocalyptic"
       ]
     }
-  ]
+  ],
+  "expansions": []
 }
