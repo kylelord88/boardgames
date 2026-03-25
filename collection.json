@@ -1,7 +1,7 @@
 {
   "username": "eyeamthekiller0",
-  "updated": "2026-03-25T18:58:30.773379Z",
-  "count": 118,
+  "updated": "2026-03-25T20:32:20.884754Z",
+  "count": 121,
   "expansion_count": 0,
   "games": [
     {
@@ -2817,6 +2817,38 @@
       ]
     },
     {
+      "id": "403511",
+      "name": "Marvel Dice Throne: Deadpool",
+      "year": "2025",
+      "thumbnail": "https://cf.geekdo-images.com/MNJL-0cmvvOQVRdhRJ6IFQ__small/img/hq6PKKswxS6DXwC89d91eEqbwcw=/fit-in/200x150/filters:strip_icc()/pic7796967.jpg",
+      "image": "https://cf.geekdo-images.com/MNJL-0cmvvOQVRdhRJ6IFQ__original/img/4q_m-IUj5jVBz2DslizkbS59dbg=/0x0/filters:format(jpeg)/pic7796967.jpg",
+      "avg_rating": "8.37731",
+      "num_ratings": "348",
+      "user_rating": "",
+      "weight": "2",
+      "num_plays": "0",
+      "min_players": "2",
+      "max_players": "6",
+      "min_playtime": "20",
+      "max_playtime": "40",
+      "expansions_owned": [],
+      "categories": [
+        "Expansion for Base-game",
+        "Card Game",
+        "Comic Book / Strip",
+        "Fighting",
+        "Movies / TV / Radio theme"
+      ],
+      "mechanics": [
+        "Dice Rolling",
+        "Variable Player Powers"
+      ],
+      "families": [
+        "Crowdfunding: Kickstarter",
+        "Game: Dice Throne"
+      ]
+    },
+    {
       "id": "403495",
       "name": "Marvel Dice Throne: Missions",
       "year": "2025",
@@ -2852,6 +2884,41 @@
       ]
     },
     {
+      "id": "403495",
+      "name": "Marvel Dice Throne: Missions",
+      "year": "2025",
+      "thumbnail": "https://cf.geekdo-images.com/dR5I63b7Xd7fXZwcXK7LYg__small/img/QB2SJb3RD4w-RURI9XlyBz7YzaY=/fit-in/200x150/filters:strip_icc()/pic7796969.jpg",
+      "image": "https://cf.geekdo-images.com/dR5I63b7Xd7fXZwcXK7LYg__original/img/1bZ7L5j4ldS71aUrf_D7nz8E_cA=/0x0/filters:format(jpeg)/pic7796969.jpg",
+      "avg_rating": "8.35296",
+      "num_ratings": "606",
+      "user_rating": "",
+      "weight": "2.2308",
+      "num_plays": "0",
+      "min_players": "1",
+      "max_players": "4",
+      "min_playtime": "30",
+      "max_playtime": "75",
+      "expansions_owned": [],
+      "categories": [
+        "Expansion for Base-game",
+        "Card Game",
+        "Comic Book / Strip",
+        "Dice",
+        "Fighting",
+        "Movies / TV / Radio theme"
+      ],
+      "mechanics": [
+        "Cooperative Game",
+        "Dice Rolling",
+        "Variable Player Powers"
+      ],
+      "families": [
+        "Admin: Better Description Needed!",
+        "Crowdfunding: Kickstarter",
+        "Game: Dice Throne"
+      ]
+    },
+    {
       "id": "403494",
       "name": "Marvel Dice Throne: X-Men",
       "year": "2025",
@@ -2860,6 +2927,43 @@
       "avg_rating": "8.42126",
       "num_ratings": "634",
       "user_rating": "6",
+      "weight": "2.1429",
+      "num_plays": "0",
+      "min_players": "2",
+      "max_players": "6",
+      "min_playtime": "20",
+      "max_playtime": "40",
+      "expansions_owned": [],
+      "categories": [
+        "Card Game",
+        "Comic Book / Strip",
+        "Dice",
+        "Fighting",
+        "Movies / TV / Radio theme"
+      ],
+      "mechanics": [
+        "Dice Rolling",
+        "Take That",
+        "Team-Based Game",
+        "Variable Player Powers"
+      ],
+      "families": [
+        "Comic Books: Marvel Universe",
+        "Components: Game Trayz Inside",
+        "Crowdfunding: Kickstarter",
+        "Game: Dice Throne",
+        "Theme: Superheroes"
+      ]
+    },
+    {
+      "id": "403494",
+      "name": "Marvel Dice Throne: X-Men",
+      "year": "2025",
+      "thumbnail": "https://cf.geekdo-images.com/B7-AA1PzRELoqoOoWitqow__small/img/jJgOIVm39bwyVhvDKmFSG6kDQ9Q=/fit-in/200x150/filters:strip_icc()/pic7796966.jpg",
+      "image": "https://cf.geekdo-images.com/B7-AA1PzRELoqoOoWitqow__original/img/fLLALd_8XUzdvDJHKJmSgqYOHo4=/0x0/filters:format(jpeg)/pic7796966.jpg",
+      "avg_rating": "8.42126",
+      "num_ratings": "634",
+      "user_rating": "",
       "weight": "2.1429",
       "num_plays": "0",
       "min_players": "2",
