@@ -1,7 +1,7 @@
 {
   "username": "eyeamthekiller0",
-  "updated": "2026-03-25T20:36:08.613997Z",
-  "count": 118,
+  "updated": "2026-03-25T22:22:20.122938Z",
+  "count": 120,
   "expansion_count": 0,
   "games": [
     {
@@ -3663,6 +3663,46 @@
       ]
     },
     {
+      "id": "343900",
+      "name": "Senjutsu: Battle For Japan",
+      "year": "2023",
+      "thumbnail": "https://cf.geekdo-images.com/QDkeggSB5MVExqAEXxfvgw__small/img/ZXv9tBBTH1JhDziJ0Wgm7_Aaj6U=/fit-in/200x150/filters:strip_icc()/pic7506502.jpg",
+      "image": "https://cf.geekdo-images.com/QDkeggSB5MVExqAEXxfvgw__original/img/AdKxSxTStXuLbaZLNLnq4IWMQfA=/0x0/filters:format(jpeg)/pic7506502.jpg",
+      "avg_rating": "7.20703",
+      "num_ratings": "1315",
+      "user_rating": "",
+      "weight": "2.9189",
+      "num_plays": "0",
+      "min_players": "1",
+      "max_players": "4",
+      "min_playtime": "15",
+      "max_playtime": "20",
+      "expansions_owned": [],
+      "categories": [
+        "Deduction",
+        "Fighting"
+      ],
+      "mechanics": [
+        "Deck Construction",
+        "Deduction",
+        "Grid Movement",
+        "Hand Management",
+        "Hidden Movement",
+        "Simultaneous Action Selection"
+      ],
+      "families": [
+        "Components: Miniatures",
+        "Country: Japan",
+        "Crowdfunding: Kickstarter",
+        "Crowdfunding: Spieleschmiede",
+        "Digital Implementations: TableTop Simulator Mod (TTS)",
+        "Game: Senjutsu \u2013 Battle For Japan",
+        "Players: Games with Solitaire Rules",
+        "Series: The Battle For Japan (Stone Sword Games)",
+        "Theme: Samurai"
+      ]
+    },
+    {
       "id": "228855",
       "name": "Set a Watch",
       "year": "2019",
@@ -4824,6 +4864,41 @@
         "Creatures: Aliens / Extraterrestrials",
         "Players: Games with Solitaire Rules",
         "Players: Solitaire Only Games"
+      ]
+    },
+    {
+      "id": "420498",
+      "name": "Unstoppable",
+      "year": "2025",
+      "thumbnail": "https://cf.geekdo-images.com/JlY4u_H5nr8bs05XQWVoGw__small/img/YTiVBeiGJeE34GxyAwMoOMwAjqE=/fit-in/200x150/filters:strip_icc()/pic8185930.png",
+      "image": "https://cf.geekdo-images.com/JlY4u_H5nr8bs05XQWVoGw__original/img/UfFncO9wLb25n6e8ayUIJm6L9yk=/0x0/filters:format(png)/pic8185930.png",
+      "avg_rating": "8.35583",
+      "num_ratings": "1498",
+      "user_rating": "",
+      "weight": "3",
+      "num_plays": "0",
+      "min_players": "1",
+      "max_players": "2",
+      "min_playtime": "30",
+      "max_playtime": "90",
+      "expansions_owned": [],
+      "categories": [
+        "Card Game",
+        "Fantasy",
+        "Science Fiction"
+      ],
+      "mechanics": [
+        "Cooperative Game",
+        "Deck Construction",
+        "Deck, Bag, and Pool Building",
+        "Hand Management",
+        "Solo / Solitaire Game"
+      ],
+      "families": [
+        "Crowdfunding: Kickstarter",
+        "Players: Games with Solitaire Rules",
+        "Series: Renegade Solo Heroes",
+        "Theme: Boss Battle"
       ]
     },
     {
