@@ -23,7 +23,7 @@ def chunks(lst, n):
 details = {}
 for batch_num, batch in enumerate(chunks(all_ids, 20)):
     id_str = ','.join(batch)
-    url = f'https://boardgamegeek.com/xmlapi2/thing?id={id_str}&type=boardgame,boardgameexpansion'
+    url = f'https://boardgamegeek.com/xmlapi2/thing?id={id_str}&type=boardgame,boardgameexpansion&stats=1'
     req = urllib.request.Request(url, headers={'Authorization': f'Bearer {token}'})
     xml_data = None
     for attempt in range(4):
@@ -49,11 +49,19 @@ for batch_num, batch in enumerate(chunks(all_ids, 20)):
             # For expansions: get which base game they belong to
             expands    = [l.get('id') for l in item.findall('link[@type="boardgameexpansion"]')
                           if l.get('inbound') == 'true']
+            # Weight/complexity from the thing endpoint is more reliable than collection stats
+            weight = ''
+            stats_el = item.find('statistics/ratings/averageweight')
+            if stats_el is not None:
+                val = stats_el.get('value', '')
+                if val and val != '0' and val != '0.0000':
+                    weight = val
             details[gid] = {
                 'categories': categories,
                 'mechanics': mechanics,
                 'families': families,
                 'expands': expands,
+                'weight': weight,
             }
         print(f"  Batch {batch_num+1} done ({len(batch)} items)")
     except ET.ParseError as e:
@@ -67,7 +75,10 @@ for game in games:
     game['categories'] = d.get('categories', [])
     game['mechanics']  = d.get('mechanics', [])
     game['families']   = d.get('families', [])
-    game['expansions_owned'] = []  # reset, will fill below
+    game['expansions_owned'] = []
+    # Override weight with thing endpoint value if available
+    if d.get('weight'):
+        game['weight'] = d['weight']
 
 # Match owned expansions to their base games
 matched = 0
