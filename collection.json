@@ -1,6 +1,6 @@
 {
   "username": "eyeamthekiller0",
-  "updated": "2026-05-10T06:28:04.843679Z",
+  "updated": "2026-05-11T06:58:19.530716Z",
   "count": 120,
   "expansion_count": 0,
   "games": [
@@ -223,7 +223,8 @@
       "families": [
         "Crowdfunding: Kickstarter",
         "Game: Aeon's End",
-        "Players: Games with Solitaire Rules"
+        "Players: Games with Solitaire Rules",
+        "Theme: Boss Battle"
       ]
     },
     {
@@ -1306,7 +1307,7 @@
       "avg_rating": "8.41247",
       "num_ratings": "58214",
       "user_rating": "7",
-      "weight": "3.0769",
+      "weight": "3.0768",
       "num_plays": "0",
       "min_players": "1",
       "max_players": "4",
@@ -1406,7 +1407,7 @@
       "avg_rating": "7.98212",
       "num_ratings": "68208",
       "user_rating": "8",
-      "weight": "2.8337",
+      "weight": "2.8338",
       "num_plays": "0",
       "min_players": "1",
       "max_players": "4",
@@ -1781,7 +1782,7 @@
       "avg_rating": "8.35179",
       "num_ratings": "31219",
       "user_rating": "7",
-      "weight": "4.4037",
+      "weight": "4.403",
       "num_plays": "0",
       "min_players": "1",
       "max_players": "4",
@@ -1966,6 +1967,7 @@
       ],
       "families": [
         "Category: DIZED Tutorial",
+        "Category: Dungeon Crawler",
         "Components: Dice with Icons",
         "Components: Miniatures",
         "Creatures: Monsters",
@@ -2672,7 +2674,7 @@
       "avg_rating": "8.10404",
       "num_ratings": "27715",
       "user_rating": "8",
-      "weight": "2.9588",
+      "weight": "2.9589",
       "num_plays": "0",
       "min_players": "1",
       "max_players": "4",
@@ -3508,7 +3510,8 @@
         "Theme: Colonial",
         "Theme: Survival",
         "Theme: Tropical",
-        "Theme: Tropical Islands"
+        "Theme: Tropical Islands",
+        "Theme: Volcanoes"
       ]
     },
     {
@@ -3520,7 +3523,7 @@
       "avg_rating": "8.0713",
       "num_ratings": "64021",
       "user_rating": "8",
-      "weight": "3.8403",
+      "weight": "3.8404",
       "num_plays": "0",
       "min_players": "2",
       "max_players": "4",
@@ -4102,7 +4105,7 @@
       "avg_rating": "8.33806",
       "num_ratings": "112947",
       "user_rating": "8",
-      "weight": "3.2714",
+      "weight": "3.2716",
       "num_plays": "0",
       "min_players": "1",
       "max_players": "5",
@@ -4502,7 +4505,7 @@
       "avg_rating": "8.91383",
       "num_ratings": "3586",
       "user_rating": "",
-      "weight": "4.0693",
+      "weight": "4.0726",
       "num_plays": "0",
       "min_players": "1",
       "max_players": "4",
@@ -4530,6 +4533,7 @@
       ],
       "families": [
         "Category: DIZED Tutorial",
+        "Crowdfunding: Gamefound",
         "Players: Games with Solitaire Rules",
         "Video Game Theme: The Elder Scrolls"
       ]
@@ -4752,7 +4756,7 @@
       "avg_rating": "8.28797",
       "num_ratings": "17022",
       "user_rating": "8",
-      "weight": "3.8697",
+      "weight": "3.8685",
       "num_plays": "0",
       "min_players": "1",
       "max_players": "4",
@@ -4914,7 +4918,7 @@
       "avg_rating": "8.50917",
       "num_ratings": "6905",
       "user_rating": "",
-      "weight": "4.6141",
+      "weight": "4.6145",
       "num_plays": "0",
       "min_players": "1",
       "max_players": "4",
