@@ -1,6 +1,6 @@
 {
   "username": "eyeamthekiller0",
-  "updated": "2026-07-26T06:28:27.621996Z",
+  "updated": "2026-07-27T06:54:19.641569Z",
   "count": 120,
   "expansion_count": 0,
   "games": [
@@ -1360,7 +1360,7 @@
       "avg_rating": "8.04789",
       "num_ratings": "4307",
       "user_rating": "7",
-      "weight": "3.4714",
+      "weight": "3.4739",
       "num_plays": "0",
       "min_players": "1",
       "max_players": "4",
@@ -3532,7 +3532,7 @@
       "avg_rating": "8.07121",
       "num_ratings": "65180",
       "user_rating": "8",
-      "weight": "3.8408",
+      "weight": "3.8409",
       "num_plays": "0",
       "min_players": "2",
       "max_players": "4",
@@ -3924,7 +3924,7 @@
       "avg_rating": "8.33963",
       "num_ratings": "63840",
       "user_rating": "7",
-      "weight": "4.0731",
+      "weight": "4.0733",
       "num_plays": "0",
       "min_players": "1",
       "max_players": "4",
@@ -4113,7 +4113,7 @@
       "avg_rating": "8.33288",
       "num_ratings": "114078",
       "user_rating": "8",
-      "weight": "3.2728",
+      "weight": "3.2727",
       "num_plays": "0",
       "min_players": "1",
       "max_players": "5",
@@ -4556,7 +4556,7 @@
       "avg_rating": "8.43242",
       "num_ratings": "3818",
       "user_rating": "7",
-      "weight": "3.5959",
+      "weight": "3.6054",
       "num_plays": "0",
       "min_players": "1",
       "max_players": "4",
@@ -5009,8 +5009,7 @@
       "max_playtime": "45",
       "expansions_owned": [],
       "categories": [
-        "Dice",
-        "Racing"
+        "Dice"
       ],
       "mechanics": [
         "Action / Event",
@@ -5021,7 +5020,7 @@
         "Storytelling"
       ],
       "families": [
-        "Admin: Better Description Needed!",
+        "Category: Tower Defense",
         "Crowdfunding: Kickstarter",
         "Digital Implementations: TableTop Simulator Mod (TTS)",
         "Players: Solitaire Only Games",
