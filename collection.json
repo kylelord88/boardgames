@@ -1,6 +1,6 @@
 {
   "username": "eyeamthekiller0",
-  "updated": "2026-08-09T04:54:24.058908Z",
+  "updated": "2026-08-10T05:15:21.825416Z",
   "count": 123,
   "expansion_count": 0,
   "games": [
@@ -488,7 +488,7 @@
       "avg_rating": "7.00675",
       "num_ratings": "50101",
       "user_rating": "7",
-      "weight": "2.3986",
+      "weight": "2.3984",
       "num_plays": "0",
       "min_players": "3",
       "max_players": "6",
@@ -1339,7 +1339,7 @@
       "avg_rating": "7.98989",
       "num_ratings": "205",
       "user_rating": "",
-      "weight": "2.625",
+      "weight": "2.5556",
       "num_plays": "0",
       "min_players": "1",
       "max_players": "4",
@@ -1479,7 +1479,7 @@
       "avg_rating": "7.97721",
       "num_ratings": "69462",
       "user_rating": "8",
-      "weight": "2.8339",
+      "weight": "2.834",
       "num_plays": "0",
       "min_players": "1",
       "max_players": "4",
@@ -1656,6 +1656,7 @@
       "families": [
         "Components: Game Box Used In Play",
         "Containers: Video Tape Boxes",
+        "Creatures: Krampus",
         "Crowdfunding: Kickstarter",
         "Game: Final Girl",
         "Misc: LongPack Games",
@@ -1752,7 +1753,7 @@
       "avg_rating": "6.74829",
       "num_ratings": "54731",
       "user_rating": "5",
-      "weight": "1.7404",
+      "weight": "1.7401",
       "num_plays": "0",
       "min_players": "2",
       "max_players": "4",
@@ -2176,7 +2177,7 @@
       "avg_rating": "6.14737",
       "num_ratings": "4500",
       "user_rating": "7",
-      "weight": "1.3836",
+      "weight": "1.3784",
       "num_plays": "0",
       "min_players": "2",
       "max_players": "4",
@@ -3076,6 +3077,7 @@
         "Science Fiction"
       ],
       "mechanics": [
+        "Action Points",
         "Campaign / Battle Card Driven",
         "Cooperative Game",
         "Dice Rolling",
