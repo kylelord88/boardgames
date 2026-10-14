@@ -1,6 +1,6 @@
 {
   "username": "eyeamthekiller0",
-  "updated": "2026-10-13T11:16:03.103412Z",
+  "updated": "2026-10-14T09:07:33.994718Z",
   "count": 123,
   "expansion_count": 0,
   "games": [
@@ -348,7 +348,6 @@
         "Mechanism: Tableau Building",
         "Players: Games with expansions that change player count",
         "Players: Games with Solitaire Rules",
-        "Players: Two-Player Only Games",
         "Series: Arkham Horror Files (Fantasy Flight Games)",
         "Theme: Cthulhu Mythos",
         "Versions & Editions: Card Versions of Non-Card Games"
@@ -4093,7 +4092,6 @@
         "Deck, Bag, and Pool Building",
         "Hand Management",
         "Modular Board",
-        "Simultaneous Action Selection",
         "Solo / Solitaire Game",
         "Tags",
         "Variable Player Powers",
