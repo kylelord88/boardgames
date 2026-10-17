@@ -1,6 +1,6 @@
 {
   "username": "eyeamthekiller0",
-  "updated": "2026-10-16T08:35:05.122547Z",
+  "updated": "2026-10-17T08:07:22.725336Z",
   "count": 123,
   "expansion_count": 0,
   "games": [
@@ -111,7 +111,7 @@
       "avg_rating": "8.07362",
       "num_ratings": "110947",
       "user_rating": "6",
-      "weight": "2.2263",
+      "weight": "2.2261",
       "num_plays": "0",
       "min_players": "2",
       "max_players": "2",
@@ -4659,7 +4659,7 @@
       "avg_rating": "8.93902",
       "num_ratings": "4478",
       "user_rating": "",
-      "weight": "4.1014",
+      "weight": "4.0986",
       "num_plays": "0",
       "min_players": "1",
       "max_players": "4",
